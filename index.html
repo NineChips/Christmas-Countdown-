@@ -1,4 +1,45 @@
 <html>
+  <style>
+    * {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato Black', sans-serif;
+}
+
+body {
+    background-color: #ffebeb;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+}
+
+.timer {
+    display: flex;
+}
+
+.box {
+    position: relative;
+    background-color: #FFF;
+    color: #1B262C;
+    height: 140px;
+    width: 140px;
+    margin: 4px;
+    font-size: 3.2rem;
+    text-align: center;
+}
+
+.box h4 {
+    position: absolute;
+    bottom: 0;
+    background-color: #ff0000;
+    width: 100%;
+    color: #FFF;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    padding: 8px 0;
+}
+  </style>
   <div class="timer">
   <div class="box">
     <h2 id="days"></h2>
